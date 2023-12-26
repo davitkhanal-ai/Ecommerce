@@ -15,7 +15,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: "14"
+
+      - name: Configure Git Identity
+        run: |
+          git config --global user.email "khanaldavit@gmail.com"
+          git config --global user.name "davitkhanal-ai"
 
       - name: Install Dependencies
         run: npm install
