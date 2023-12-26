@@ -4,7 +4,11 @@
   "description": "this is an ecommerce app",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "release": "standard-version -a -s -p && git push --follow-tags origin main"
+  },
+  "standard-version": {
+    "changelogHeader": "# Changelog"
   },
   "repository": {
     "type": "git",
