@@ -1,2 +1,3 @@
-2023-12-26
-Home page created for top bar and headers
+## Release Notes
+
+See [CHANGELOG.md](CHANGELOG.md) for details on each release.
