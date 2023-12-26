@@ -1,4 +1,18 @@
 # Changelog
+### [1.0.5-1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.4...v1.0.5-1) (2023-12-26)
+
+
+### Bug Fixes
+
+* updated package json file ([7f392b0](https://github.com/mokkapps/changelog-generator-demo/commits/7f392b06a8320cf195dab7333bc515f52e590b91))
+
+### [1.0.5-0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.4...v1.0.5-0) (2023-12-26)
+
+
+### Bug Fixes
+
+* updated package json file ([7f392b0](https://github.com/mokkapps/changelog-generator-demo/commits/7f392b06a8320cf195dab7333bc515f52e590b91))
+
 ### 1.0.4 (2023-12-26)
 
 

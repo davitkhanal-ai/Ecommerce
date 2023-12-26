@@ -1,11 +1,11 @@
 {
   "name": "ecommerce",
-  "version": "1.0.4",
+  "version": "1.0.5-1",
   "description": "this is an ecommerce app",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "release": "standard-version -a -s -p && git push --follow-tags origin main",
+    "release": "standard-version -a -p && git push --follow-tags origin main",
     "release:changelog": "standard-version -a -s -p",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
