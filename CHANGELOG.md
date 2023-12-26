@@ -1,2 +1,4 @@
 # Changelog
+### 1.0.4 (2023-12-26)
 
+# Changelog
