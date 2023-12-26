@@ -1,6 +1,8 @@
 # Changelog
 ### [1.0.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.5-1...v1.0.4) (2023-12-26)
 
+### [1.0.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.5-1...v1.0.4) (2023-12-26)
+
 ### [1.0.5-1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.4...v1.0.5-1) (2023-12-26)
 
 
