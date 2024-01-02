@@ -18,7 +18,7 @@ app.set("layout", path.join(__dirname, "views/layouts/main.ejs"));
 app.set("view engine", "ejs");
 
 // Routes
-app.use("/home", reciperRouter);
+app.use("/", reciperRouter);
 
 // Listening
 app.listen(port, () => {
