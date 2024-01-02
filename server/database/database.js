@@ -13,5 +13,6 @@ db.once("open", function () {
 
 //models
 require("./category");
+require('./Recipe');
 
-module.exports = db;
+

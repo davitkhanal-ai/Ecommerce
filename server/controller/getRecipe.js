@@ -1,3 +1,5 @@
+require('../database/database');
+
 const getRecipe = async (req, res) => {
   res.render("index", { title: "Recipe - by Me" });
 };
