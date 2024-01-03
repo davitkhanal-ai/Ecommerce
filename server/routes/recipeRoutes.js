@@ -1,8 +1,10 @@
 const express = require("express");
 const recipeRouter = express.Router();
-const getRecipe = require("../controller/getRecipe");
+const home = require("../controller/home");
+const categories_home = require("../controller/categories_home");
 
 //all routes
-recipeRouter.get("", getRecipe);
+recipeRouter.get("", home);
+recipeRouter.get("/categories", categories_home);
 
 module.exports = recipeRouter;
