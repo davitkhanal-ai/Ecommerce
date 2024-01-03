@@ -46,3 +46,76 @@ a {
   width: 100%;
   object-fit: cover;
 }
+
+/* about me  */
+
+.body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  text-align: center;
+}
+
+.aboutHeader {
+  background-color: #1a1a1a;
+  padding: 10px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutHeader h1 {
+  font-family: "Kaushan Script", cursive;
+  color: #fff;
+  margin: 10;
+  font-size: 2.5em;
+}
+
+.section {
+  font-family: "Kaushan Script", cursive;
+  margin: 10px;
+  text-align: center;
+}
+
+.section p {
+  line-height: 1.5;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a.github {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5em;
+  position: relative;
+}
+
+.social-icons a.linkedin {
+  margin: 0 10px;
+  color: #0a66c2;
+  text-decoration: none;
+  font-size: 1.5em;
+  position: relative;
+}
+
+.social-icons a.github:hover {
+  color: #4078c0;
+  top: -2px;
+}
+
+.social-icons a.linkedin:hover {
+  color: #004182;
+  top: -2px;
+}
