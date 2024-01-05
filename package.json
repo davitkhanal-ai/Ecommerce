@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "version": "1.0.5-1",
-  "description": "this is an ecommerce app",
+  "description": "this is an ecommerce app for a project in node js",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
