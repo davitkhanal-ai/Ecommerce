@@ -26,6 +26,7 @@ const recipeSchema = new mongoose.Schema({
     type: String,
     required: "This fields  is required.",
   },
+  // ned to have created at and updated at scheme to be here
 });
 
 recipeSchema.index({ name: "text", description: "text" });
