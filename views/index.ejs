@@ -87,6 +87,91 @@
 </section>
 <!--  latrest end-->
 
+<!-- American Start -->
+<section class="pb-4 pt-4">
+  <div class="d-flex mb-2 align-items-center">
+    <h2>American Recipes</h2>
+    <a href="/recipe" class="ms-auto">View More</a>
+  </div>
+
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <% if(food != '') { %> <% food.latest.forEach(function(recipe, index){ %>
+    <a href="/recipe/<%= recipe._id %>" class="col text-center category__link">
+      <div class="category__img category__img--large shadow">
+        <img
+          src="/img/<%= recipe.image %>"
+          alt="<%= recipe.name %>"
+          loading="lazy"
+        />
+      </div>
+      <div class="pt-1"><%= recipe.name %></div>
+    </a>
+    <% }) %> <% } else { %>
+    <p>No items found.</p>
+    <% } %>
+  </div>
+</section>
+<!-- americna end-->
+
+
+
+<!-- thai-->
+<section class="pb-4 pt-4">
+  <div class="d-flex mb-2 align-items-center">
+    <h2>Thai Recipes</h2>
+    <a href="/recipe" class="ms-auto">View More</a>
+  </div>
+
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <% if(food != '') { %> <% food.thai.forEach(function(recipe, index){ %>
+    <a href="/recipe/<%= recipe._id %>" class="col text-center category__link">
+      <div class="category__img category__img--large shadow">
+        <img
+          src="/img/<%= recipe.image %>"
+          alt="<%= recipe.name %>"
+          loading="lazy"
+        />
+      </div>
+      <div class="pt-1"><%= recipe.name %></div>
+    </a>
+    <% }) %> <% } else { %>
+    <p>No items found.</p>
+    <% } %>
+  </div>
+</section>
+
+<!-- thai end-->
+
+
+<!-- chinese-->
+<section class="pb-4 pt-4">
+  <div class="d-flex mb-2 align-items-center">
+    <h2>Chinese Recipes</h2>
+    <a href="/recipe" class="ms-auto">View More</a>
+  </div>
+
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <% if(food != '') { %> <% food.chinese.forEach(function(recipe, index){ %>
+    <a href="/recipe/<%= recipe._id %>" class="col text-center category__link">
+      <div class="category__img category__img--large shadow">
+        <img
+          src="/img/<%= recipe.image %>"
+          alt="<%= recipe.name %>"
+          loading="lazy"
+        />
+      </div>
+      <div class="pt-1"><%= recipe.name %></div>
+    </a>
+    <% }) %> <% } else { %>
+    <p>No items found.</p>
+    <% } %>
+  </div>
+</section>
+
+<!-- chinese end-->
+
+
+
 <!-- section -->
 <section class="px-4 py-5 my-5 text-center">
   <img
