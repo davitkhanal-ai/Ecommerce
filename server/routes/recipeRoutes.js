@@ -4,13 +4,13 @@ const home = require("../controller/home");
 const categories_home = require("../controller/categories_home");
 const aboutMe = require("../controller/aboutme");
 const versionTXT = require("../controller/version");
-const recipe_home = require("../controller/recipe");
+const recipe = require("../database/Recipe");
 
-//all routes
+//all routes for get
 recipeRouter.get("", home);
 recipeRouter.get("/categories", categories_home);
+recipeRouter.get("/recipe", recipe);
 recipeRouter.get("/about", aboutMe);
 recipeRouter.get("/version.txt", versionTXT);
-recipeRouter.get("/recipe", recipe_home);
 
 module.exports = recipeRouter;
