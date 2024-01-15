@@ -4,7 +4,7 @@ const home = require("../controller/home");
 const categories_home = require("../controller/categories_home");
 const aboutMe = require("../controller/aboutme");
 const versionTXT = require("../controller/version");
-const recipe = require("../database/Recipe");
+const recipe_home = require("../controller/recipe");
 
 //all routes for get
 recipeRouter.get("", home);
