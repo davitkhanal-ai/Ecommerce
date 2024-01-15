@@ -12,7 +12,7 @@ const recipe_home = async (req, res) => {
     const chinese = await Recipe.find({ category: "Chinese" }).limit(limitNumber);
 
     const food = { latest,thai,american,chinese };
-    res.render("recipe", { title: "recipe", latest, food });
+    res.render("recipe", { title: "recipe", latest, food ,footer:"Delicious Recipes"});
   } catch (error) {
     res.status(500).send({ message: error.message || "Error occured" });
   }
